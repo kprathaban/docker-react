@@ -9,7 +9,7 @@ before_install:
 script:
   - docker run -e CI=true karthiksaran/docker-react npm run test -- --coverage
 
- deploy:
+deploy:
   provider: elasticbeanstalk
   region: us-east-1
   app: docker-react
