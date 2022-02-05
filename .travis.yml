@@ -13,8 +13,8 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-1'
   app: 'docker-react'
-  env: 'Dockerreact-environement'
-  bucket_name: 'elasticbeanstalk-us-east-1-320032236863'
+  env: 'Dockerreact-env'
+  bucket_name: 'elasticbeanstalk-us-east-1-3200322'
   bucket_path: 'FirstAWSProject'
   on:
     branch: master
